@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ha</title>
+</head>
+<body>
+here
+<table style="color: red">
+				<thead>
+					<th>username</th>
+					<th>password</th>
+				</thead>			
+				<tbody>
+					{% for line in data %}
+					<tr>
+						<td>{{ line.user }}</td>
+						<td>{{ line.pwd }}</td>
+					</tr>
+					{% endfor %}
+				</tbody>
+					
+
+			</table>
+</body>
+</html>

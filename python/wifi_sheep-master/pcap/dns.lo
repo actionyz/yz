@@ -1,0 +1,60 @@
+23:03:29.891843 IP 192.168.1.115.50540 > 52.26.255.14.https: Flags [.], ack 2043619673, win 318, options [nop,nop,TS val 272440 ecr 1329061666], length 0
+23:03:30.112898 IP 52.26.255.14.https > 192.168.1.115.50540: Flags [.], ack 1, win 79, options [nop,nop,TS val 1329064227 ecr 259685], length 0
+23:03:30.544629 IP 192.168.1.115.8250 > ns2.myzone.cn.domain: 24523+ PTR? 14.255.26.52.in-addr.arpa. (43)
+23:03:30.565715 IP ns2.myzone.cn.domain > 192.168.1.115.8250: 24523 ServFail 0/0/0 (43)
+23:03:30.566066 IP 192.168.1.115.24879 > ns2.myzone.cn.domain: 22755+ PTR? 14.255.26.52.in-addr.arpa. (43)
+23:03:30.577521 IP ns2.myzone.cn.domain > 192.168.1.115.24879: 22755 ServFail 0/0/0 (43)
+23:03:30.577837 IP 192.168.1.115.47515 > ns2.myzone.cn.domain: 32476+ PTR? 115.1.168.192.in-addr.arpa. (44)
+23:03:30.590197 IP ns2.myzone.cn.domain > 192.168.1.115.47515: 32476 NXDomain* 0/1/0 (99)
+23:03:30.643857 IP 192.168.1.115.47634 > a23-7-139-27.deploy.static.akamaitechnologies.com.http: Flags [F.], seq 745660189, ack 4190566219, win 273, options [nop,nop,TS val 272628 ecr 88535919], length 0
+23:03:31.459826 IP 192.168.1.115.50574 > 52.26.255.14.https: Flags [.], ack 3170256052, win 339, options [nop,nop,TS val 272832 ecr 1329062058], length 0
+23:03:31.544160 IP 192.168.1.115.43535 > ns2.myzone.cn.domain: 40127+ PTR? 88.88.88.222.in-addr.arpa. (43)
+23:03:31.558201 IP ns2.myzone.cn.domain > 192.168.1.115.43535: 40127 1/3/3 PTR ns2.myzone.cn. (167)
+23:03:31.558648 IP 192.168.1.115.62553 > ns2.myzone.cn.domain: 9254+ PTR? 27.139.7.23.in-addr.arpa. (42)
+23:03:31.574004 IP ns2.myzone.cn.domain > 192.168.1.115.62553: 9254 ServFail 0/0/0 (42)
+23:03:31.574280 IP 192.168.1.115.15816 > ns2.myzone.cn.domain: 28738+ PTR? 27.139.7.23.in-addr.arpa. (42)
+23:03:31.574524 IP ns2.myzone.cn.domain > 192.168.1.115.62553: 9254 1/8/8 PTR a23-7-139-27.deploy.static.akamaitechnologies.com. (392)
+23:03:31.574558 IP 192.168.1.115 > ns2.myzone.cn: ICMP 192.168.1.115 udp port 62553 unreachable, length 428
+23:03:31.588357 IP ns2.myzone.cn.domain > 192.168.1.115.15816: 28738 1/8/8 PTR a23-7-139-27.deploy.static.akamaitechnologies.com. (392)
+23:03:31.675748 IP 52.26.255.14.https > 192.168.1.115.50574: Flags [.], ack 1, win 53, options [nop,nop,TS val 1329064617 ecr 260083], length 0
+23:03:31.998578 IP 192.168.1.104.33077 > 192.168.1.255.60000: UDP, length 6
+23:03:32.355849 IP 192.168.1.115.57464 > 220.181.163.33.http: Flags [F.], seq 2126542299, ack 123645242, win 836, length 0
+23:03:32.544268 IP 192.168.1.115.52575 > ns2.myzone.cn.domain: 44180+ PTR? 255.1.168.192.in-addr.arpa. (44)
+23:03:32.555313 IP ns2.myzone.cn.domain > 192.168.1.115.52575: 44180 NXDomain* 0/1/0 (99)
+23:03:32.555619 IP 192.168.1.115.50192 > ns2.myzone.cn.domain: 59860+ PTR? 104.1.168.192.in-addr.arpa. (44)
+23:03:32.567182 IP ns2.myzone.cn.domain > 192.168.1.115.50192: 59860 NXDomain* 0/1/0 (99)
+23:03:32.567583 IP 192.168.1.115.5945 > ns2.myzone.cn.domain: 39241+ PTR? 33.163.181.220.in-addr.arpa. (45)
+23:03:32.581648 IP ns2.myzone.cn.domain > 192.168.1.115.5945: 39241 ServFail 0/0/0 (45)
+23:03:32.581895 IP 192.168.1.115.59615 > ns2.myzone.cn.domain: 41690+ PTR? 33.163.181.220.in-addr.arpa. (45)
+23:03:32.614562 IP ns2.myzone.cn.domain > 192.168.1.115.59615: 41690 NXDomain* 0/1/0 (146)
+23:03:32.803840 IP 192.168.1.115.54624 > a23-44-155-27.deploy.static.akamaitechnologies.com.http: Flags [F.], seq 652086091, ack 634015248, win 273, options [nop,nop,TS val 273168 ecr 61665811], length 0
+17:36:09.752952 IP 172.18.46.180.33463 > golem.canonical.com.ntp: NTPv4, Client, length 48
+17:36:10.149294 IP golem.canonical.com.ntp > 172.18.46.180.33463: NTPv4, Server, length 48
+17:36:10.708310 IP 172.18.46.180.41564 > dns.sqnc.edu.cn.domain: 47066+ PTR? 199.89.189.91.in-addr.arpa. (44)
+17:36:10.708333 IP 172.18.46.180.41564 > ns2.myzone.cn.domain: 47066+ PTR? 199.89.189.91.in-addr.arpa. (44)
+17:36:11.002139 IP ns2.myzone.cn.domain > 172.18.46.180.41564: 47066 1/6/12 PTR golem.canonical.com. (453)
+17:36:11.002584 IP 172.18.46.180.10122 > ns2.myzone.cn.domain: 31832+ PTR? 180.46.18.172.in-addr.arpa. (44)
+17:36:11.012676 IP ns2.myzone.cn.domain > 172.18.46.180.10122: 31832 NXDomain* 0/1/0 (93)
+17:36:11.039777 IP dns.sqnc.edu.cn.domain > 172.18.46.180.41564: 47066 1/3/0 PTR golem.canonical.com. (131)
+17:36:11.039817 IP 172.18.46.180 > dns.sqnc.edu.cn: ICMP 172.18.46.180 udp port 41564 unreachable, length 167
+17:36:11.707986 IP 172.18.46.180.32729 > ns2.myzone.cn.domain: 6627+ PTR? 6.64.84.211.in-addr.arpa. (42)
+17:36:11.718952 IP ns2.myzone.cn.domain > 172.18.46.180.32729: 6627 ServFail 0/0/0 (42)
+17:36:11.719237 IP 172.18.46.180.21178 > ns2.myzone.cn.domain: 27233+ PTR? 6.64.84.211.in-addr.arpa. (42)
+17:36:11.729913 IP ns2.myzone.cn.domain > 172.18.46.180.21178: 27233 1/2/6 PTR dns.sqnc.edu.cn. (210)
+17:36:11.730262 IP 172.18.46.180.17458 > ns2.myzone.cn.domain: 50402+ PTR? 88.88.88.222.in-addr.arpa. (43)
+17:36:11.742445 IP ns2.myzone.cn.domain > 172.18.46.180.17458: 50402 1/3/3 PTR ns2.myzone.cn. (167)
+17:36:14.726298 IP 172.18.46.180.15833 > ns2.myzone.cn.domain: 18113+ A? googleads.g.doubleclick.net. (45)
+17:36:14.726430 IP 172.18.46.180.x11-1 > ns2.myzone.cn.domain: 52987+ A? googleads.g.doubleclick.net. (45)
+17:36:14.726478 IP 172.18.46.180.45180 > ns2.myzone.cn.domain: 25409+ AAAA? googleads.g.doubleclick.net. (45)
+17:36:14.736746 IP ns2.myzone.cn.domain > 172.18.46.180.45180: 25409 2/4/4 CNAME pagead46.l.doubleclick.net., AAAA 2401:3800:4001:807::1019 (244)
+17:36:14.737043 IP ns2.myzone.cn.domain > 172.18.46.180.x11-1: 52987 4/4/4 CNAME pagead46.l.doubleclick.net., A 203.208.51.58, A 203.208.51.45, A 203.208.51.57 (264)
+17:36:14.737275 IP 172.18.46.180.32820 > 203.208.51.58.http: Flags [S], seq 4031600449, win 29200, options [mss 1460,sackOK,TS val 16541971 ecr 0,nop,wscale 7], length 0
+17:36:14.737310 IP 172.18.46.180.32822 > 203.208.51.58.http: Flags [S], seq 2896414920, win 29200, options [mss 1460,sackOK,TS val 16541971 ecr 0,nop,wscale 7], length 0
+17:36:14.737334 IP 172.18.46.180.32824 > 203.208.51.58.http: Flags [S], seq 737629002, win 29200, options [mss 1460,sackOK,TS val 16541971 ecr 0,nop,wscale 7], length 0
+17:36:14.738135 IP ns2.myzone.cn.domain > 172.18.46.180.15833: 18113 4/4/4 CNAME pagead46.l.doubleclick.net., A 203.208.51.45, A 203.208.51.57, A 203.208.51.58 (264)
+17:36:14.753438 IP 203.208.51.58.http > 172.18.46.180.32820: Flags [S.], seq 3457895154, ack 4031600450, win 28960, options [mss 1460,sackOK,TS val 136563326 ecr 16541971,nop,wscale 7], length 0
+17:36:14.753469 IP 172.18.46.180.32820 > 203.208.51.58.http: Flags [.], ack 1, win 229, options [nop,nop,TS val 16541975 ecr 136563326], length 0
+17:36:14.753576 IP 172.18.46.180.32820 > 203.208.51.58.http: Flags [.], seq 1:1449, ack 1, win 229, options [nop,nop,TS val 16541975 ecr 136563326], length 1448: HTTP: GET /pagead/gen_204?id=wfocus&gqid=HnWEWJ6-FYjX2ASLrIe4Cw&qqid=CLLv2qCy1dECFQgzlgod3YoBmg&fg=1 HTTP/1.1
+17:36:14.753728 IP 172.18.46.180.32826 > 203.208.51.58.http: Flags [S], seq 3870023859, win 29200, options [mss 1460,sackOK,TS val 16541975 ecr 0,nop,wscale 7], length 0
+17:36:14.756121 IP 172.18.46.180.32820 > 203.208.51.58.http: Flags [P.], seq 1449:1579, ack 1, win 229, options [nop,nop,TS val 16541976 ecr 136563326], length 130: HTTP
+17:36:14.758047 IP 203.208.51.58.http > 172.18.46.180.32824: Flags [S.], seq 3484859347, ack 737629003, win 28960, options [mss 1460,sackOK,TS val 2816502578 ecr 16541971,nop,wscale 7], length 0
